@@ -43,10 +43,20 @@ a{
     padding: 13px 20px;    
     border: 1px solid #000;
 }
-/* Header */
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 30px;
+    background-color: #0061ff;
+}
+.border-grey{
+    border: 1px solid #d0d0d0;
+}
+/* Topnav */
 
 nav{
     height: 80px;
+    padding: 0 20px;
 }
 
 .left-nav{
@@ -60,6 +70,48 @@ nav a img{
     line-height: 80px;
     vertical-align: middle;
 }
+
+
+/* Hero */
+.hero{
+    position: relative;
+    background-color: #b4d0e7;
+    padding: 110px 150px;
+}
+.hero-title{
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+.hero-desc{
+    width: 391px;
+    margin-bottom: 40px;
+}
+.hero .specs{
+    margin-top: 30px;
+}
+.hero-image{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 48%;
+    right: 0;
+    transform: translateX(-25%);
+}
+
+.hero i{
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+/* Piani e prezzi */
+.plans{
+    padding: 210px 0;
+}
+.plans h2{
+    font-size: 2.5rem;
+}
+
+
 
 /* Main */
 
