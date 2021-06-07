@@ -1,5 +1,5 @@
 /* font-family: 'Open Sans', sans-serif; */
-
+/* trial color:#61082b; */
 
 
 /* Reset */
@@ -10,3 +10,37 @@
     padding: 0;
 }
 
+/* Utils */
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.btn-blue{
+    color: #fff;
+    background-color: #0061ff;
+    padding: 13px 20px;
+}
+.btn-white{
+    color: #000;
+    background-color: #fff;
+    padding: 13px 66px;
+}
+.btn-white-bordered{
+    color: #000;
+    background-color: #fff;
+    padding: 13px 20px;    
+    border: 1px solid #000;
+}
+/* Header */
+
+
+/* Main */
+
+
+/* Footer */
