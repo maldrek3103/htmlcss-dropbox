@@ -185,7 +185,7 @@ nav a img{
     color: #176fff;
 }
 .col.enterprise-plan{
-    padding-top: 50px;
+    padding: 50px 0 150px 0;
     width: 100%;
 }
 .enterprise-plan .plan-desc h4{
@@ -195,9 +195,28 @@ nav a img{
     float: right;
     padding: 12px 75px;
 }
+.enterprise-plan .plan-desc .enterprise-desc{
+    font-size: 0.85rem;
+}
 .plan-1 .plan-desc,
 .plan-2 .plan-desc,
 .plan-3 .plan-desc{
     height: 1350px;
+}
+/* Partnership */
+.partnership .partner-desc img{
+    width: 55%;
+    height: auto;
+}
+.partnership .partner-desc .partner-text{
+    float: right;
+    width: 45%;
+    padding: 55px 0 0 55px;
+}
+.partner-desc .partner-text h3{
+    padding-bottom: 40px;
+}
+.partner-desc .partner-text p{
+    padding-bottom: 40px;
 }
 /* Footer */
