@@ -1,4 +1,4 @@
-/* font-family: 'Open Sans', sans-serif; */
+
 /* trial color:#61082b; */
 
 
@@ -9,7 +9,13 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
 /* Utils */
 
 .container{
@@ -39,6 +45,21 @@
 }
 /* Header */
 
+nav{
+    height: 80px;
+}
+
+.left-nav{
+    display: inline-block;
+}
+.right-nav{
+    float: right;
+}
+nav a,
+nav a img{
+    line-height: 80px;
+    vertical-align: middle;
+}
 
 /* Main */
 
