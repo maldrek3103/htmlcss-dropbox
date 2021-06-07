@@ -16,6 +16,7 @@ a{
     text-decoration: none;
     color: #000;
 }
+
 /* Utils */
 
 .container{
@@ -62,6 +63,7 @@ li{
 .margin-both{
     margin: 0 45px;
 }
+
 /* Topnav */
 
 nav{
@@ -83,6 +85,7 @@ nav a img{
 
 
 /* Hero */
+
 .hero{
     position: relative;
     background-color: #b4d0e7;
@@ -114,8 +117,9 @@ nav a img{
 }
 
 /* Piani e prezzi */
+
 .prices-intro{
-    padding: 210px 0;
+    padding: 210px 0 120px 0;
 }
 
 .prices-intro h2{
@@ -203,7 +207,9 @@ nav a img{
 .plan-3 .plan-desc{
     height: 1350px;
 }
+
 /* Partnership */
+
 .partnership .partner-desc img{
     width: 55%;
     height: auto;
@@ -219,4 +225,57 @@ nav a img{
 .partner-desc .partner-text p{
     padding-bottom: 40px;
 }
+
+/* Descrizione Dropbox Business */
+.main-description-section{
+    padding-bottom: 220px;
+}
+.main-description-section h2{
+    font-size: 2.5rem;
+    padding-bottom: 70px;
+}
+.main-description-section img{
+    width: 100%;
+}
+.main-description-section .col h3{
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+.main-description-section .col p{
+    font-size: 1.05rem;
+    padding-bottom: 120px;
+}
+.main-description-section a:hover{
+    text-decoration: underline;
+}
+
 /* Footer */
+footer{
+    height: 450px;
+    background-color: #000;
+}
+.footer-section{
+    padding: 100px;
+}
+.footer-section h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.footer-section *{
+    color: #fff;
+}
+.footer-section ul{
+    float: left;
+    width: calc(100% / 5);
+}
+footer hr{
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+footer .language-selector{
+    padding-left: 100px;
+    color: #999999;
+    font-size: 0.8rem;
+}
