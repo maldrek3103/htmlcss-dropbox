@@ -43,14 +43,24 @@ a{
     padding: 13px 20px;    
     border: 1px solid #000;
 }
-.col{
-    float: left;
-    width: calc(100% / 3);
-    padding: 0 30px;
-    background-color: #0061ff;
-}
 .border-grey{
     border: 1px solid #d0d0d0;
+}
+.centered{
+    text-align: center;
+}
+i[class*='fa-']{
+    margin-right: 10px;
+}
+li{
+    list-style: none;
+}
+.col{
+    float: left;
+    width: calc((100% / 3) - 30px);
+}
+.margin-both{
+    margin: 0 45px;
 }
 /* Topnav */
 
@@ -104,16 +114,85 @@ nav a img{
 }
 
 /* Piani e prezzi */
-.plans{
+.prices-intro{
     padding: 210px 0;
 }
-.plans h2{
+
+.prices-intro h2{
     font-size: 2.5rem;
+    margin-bottom: 40px;
 }
 
-
-
-/* Main */
-
-
+.prices-intro input#monthly{
+    margin: 0 5px 30px 0;
+}
+.prices-intro input#yearly{
+    margin: 0 5px 30px 10px;
+}
+.prices-intro label{
+    font-size: 1.1rem;
+}
+.col .plan-name{
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    font-weight: 400;
+    padding: 10px;
+}
+.col .plan-desc{
+    border: 1px solid #d0d0d0;
+    padding: 40px 30px;
+}
+.plan-desc h4{
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+}
+.plan-desc .cost{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.plan-desc .cost-spec{
+    color: #667583;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-bottom: 55px;
+}
+.plan-desc .plan-features li{
+    padding-bottom: 30px;
+}
+.plan-desc .plan-features li:last-child{
+    padding-bottom: 65px;
+}
+.plan-desc .alternative-purchase{
+    padding: 50px 0 30px 0;
+}
+.plan-desc .alternative-purchase a{
+    color: #176fff;
+    text-decoration: underline;
+}
+.plan-desc hr{
+    width: 20%;
+    color: #d0d0d0;
+}
+.plan-spec-title{
+    font-size: 1.1rem;
+    padding-top: 45px;
+}
+.plan-specs li{
+    padding-top: 35px;
+}
+.plan-specs .fas{
+    color: #176fff;
+}
+.col.enterprise-plan{
+    padding-top: 50px;
+    width: 100%;
+}
+.enterprise-plan .plan-desc h4{
+    display: inline-block;
+}
+.enterprise-plan .plan-desc a{
+    float: right;
+    padding: 12px 75px;
+}
 /* Footer */
