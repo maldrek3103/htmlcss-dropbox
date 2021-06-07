@@ -195,4 +195,9 @@ nav a img{
     float: right;
     padding: 12px 75px;
 }
+.plan-1 .plan-desc,
+.plan-2 .plan-desc,
+.plan-3 .plan-desc{
+    height: 1350px;
+}
 /* Footer */
