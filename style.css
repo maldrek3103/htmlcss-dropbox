@@ -400,6 +400,7 @@ footer{
     height: 450px;
     background-color: #000;
 }
+/* links */
 .links{
     padding: 100px 160px;
 }
@@ -415,6 +416,8 @@ footer{
     font-weight: 800;
     padding-bottom: 20px;
 }
+
+/* footer end */
 .footer-section hr{
     width: 100px;
     margin-left: 160px;
