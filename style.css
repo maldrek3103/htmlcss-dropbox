@@ -1,8 +1,4 @@
-
-/* trial color:#61082b; */
-
-
-/* Reset */
+/********* Reset *********/
 
 *{
     box-sizing: border-box;
@@ -17,8 +13,9 @@ a{
     color: #000;
 }
 
-/* Utils */
+/********* Utils *********/
 
+/* layout */
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -28,12 +25,12 @@ a{
     content: '';
     clear: both;
 }
+.col{
+    float: left;
+    width: calc((100% / 3) - 30px);
+}
 .w-100{
     width: 100%;
-}
-.link-reset{
-    color: #176fff;
-    text-decoration: underline;
 }
 .float-l{
     float: left;
@@ -41,6 +38,11 @@ a{
 .float-r{
     float: right;
 }
+.margin-both{
+    margin: 0 45px;
+}
+
+/* buttons & links */
 .btn-blue{
     color: #fff;
     background-color: #0061ff;
@@ -57,25 +59,13 @@ a{
     padding: 13px 20px;    
     border: 1px solid #000;
 }
-.border-grey{
-    border: 1px solid #d0d0d0;
+.link-reset{
+    color: #176fff;
+    text-decoration: underline;
 }
-.centered{
-    text-align: center;
-}
-i[class*='fa-']{
-    margin-right: 10px;
-}
-li{
-    list-style: none;
-}
-.col{
-    float: left;
-    width: calc((100% / 3) - 30px);
-}
-.margin-both{
-    margin: 0 45px;
-}
+
+
+/* color & bg */
 .bg-green{
     background-color: #a2d39b;
 }
@@ -100,9 +90,24 @@ li{
 .bg-greyblue{
     background-color: #b4d0e7;
 }
-/* Topnav */
 
+/* general style */
+.border-grey{
+    border: 1px solid #d0d0d0;
+}
+.centered{
+    text-align: center;
+}
+i[class*='fa-']{
+    margin-right: 10px;
+}
+li{
+    list-style: none;
+}
 
+/********* Header *********/
+
+/* topnav */
 .top-nav{
     position: fixed;
     width: 100%;
@@ -119,8 +124,7 @@ nav a img{
     padding-right: 30px;
 }
 
-
-/* Hero */
+/* hero */
 
 .hero{
     position: relative;
@@ -152,7 +156,9 @@ nav a img{
     margin-top: 40px;
 }
 
-/* Piani e prezzi */
+/********* Main *********/
+
+/* plans & prices */
 
 #prices{
     padding: 210px 0 120px 0;
@@ -248,7 +254,7 @@ nav a img{
     height: 1350px;
 }
 
-/* Partnership */
+/* partnership */
 
 .partnership .partner-desc img{
     width: 55%;
@@ -268,7 +274,7 @@ nav a img{
     padding-bottom: 40px;
 }
 
-/* Descrizione Dropbox Business */
+/* description Dropbox Business */
 
 #dropbox-business-desc{
     padding-bottom: 220px;
@@ -292,7 +298,7 @@ nav a img{
     text-decoration: underline;
 }
 
-/* Companies */
+/* companies */
 
 .companies-section{
     padding-bottom: 50px;
@@ -351,7 +357,7 @@ nav a img{
     float:right;
 }
 
-/* Free trial */
+/* free trial */
 
 #trial{
     padding: 135px 0;
@@ -388,7 +394,7 @@ nav a img{
     color: #dcdcde;
 }
 
-/* Footer */
+/********* Footer *********/
 
 footer{
     height: 450px;
