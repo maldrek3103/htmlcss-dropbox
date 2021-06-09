@@ -28,6 +28,19 @@ a{
     content: '';
     clear: both;
 }
+.w-100{
+    width: 100%;
+}
+.link-reset{
+    color: #176fff;
+    text-decoration: underline;
+}
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
 .btn-blue{
     color: #fff;
     background-color: #0061ff;
@@ -99,12 +112,6 @@ li{
     padding: 0 20px;
     height: 80px;
 }
-.left-nav{
-    float: left;
-}
-.right-nav{
-    float: right;
-}
 nav a,
 nav a img{
     line-height: 80px;
@@ -147,22 +154,22 @@ nav a img{
 
 /* Piani e prezzi */
 
-.prices-intro{
+#prices{
     padding: 210px 0 120px 0;
 }
 
-.prices-intro h2{
+#prices h2{
     font-size: 2.5rem;
     margin-bottom: 40px;
 }
 
-.prices-intro input#monthly{
+#prices input#monthly{
     margin: 0 5px 30px 0;
 }
-.prices-intro input#yearly{
+#prices input#yearly{
     margin: 0 5px 30px 10px;
 }
-.prices-intro label{
+#prices label{
     font-size: 1.1rem;
 }
 .col .plan-name{
@@ -198,12 +205,12 @@ nav a img{
 .plan-desc .plan-features li:last-child{
     padding-bottom: 65px;
 }
+.plan-desc .btn-blue{
+    text-align: center;
+    display: inline-block;
+}
 .plan-desc .alternative-purchase{
     padding: 50px 0 30px 0;
-}
-.plan-desc .alternative-purchase a{
-    color: #176fff;
-    text-decoration: underline;
 }
 .plan-desc hr{
     width: 20%;
@@ -253,33 +260,35 @@ nav a img{
     padding: 55px 0 0 55px;
 }
 .partner-desc .partner-text h3{
+    font-size: 1.5rem;
     padding-bottom: 40px;
 }
 .partner-desc .partner-text p{
+    line-height: 1.5rem;
     padding-bottom: 40px;
 }
 
 /* Descrizione Dropbox Business */
 
-.main-description-section{
+#dropbox-business-desc{
     padding-bottom: 220px;
 }
-.main-description-section h2{
+#dropbox-business-desc h2{
     font-size: 2.5rem;
     padding-bottom: 70px;
 }
-.main-description-section img{
+#dropbox-business-desc img{
     width: 100%;
 }
-.main-description-section .col h3{
+#dropbox-business-desc .col h3{
     font-size: 1.5rem;
     padding-bottom: 40px;
 }
-.main-description-section .col p{
+#dropbox-business-desc .col p{
     font-size: 1.05rem;
     padding-bottom: 120px;
 }
-.main-description-section a:hover{
+#dropbox-business-desc a:hover{
     text-decoration: underline;
 }
 
@@ -344,38 +353,38 @@ nav a img{
 
 /* Free trial */
 
-.trial{
+#trial{
     padding: 135px 0;
     background-color: #b4d0e7;
 }
-.trial h2{
+#trial h2{
     display: inline-block;
     width: 50%;
     color: #61082b;
     font-size: 2.8rem;
 }
-.trial .btn-white{
+#trial .btn-white{
     float: right;
 }
 
 /* Q&A */
 
-.questions{
+#questions{
     padding: 120px 0;
 }
-.questions h3{
+#questions h3{
     font-size: 2rem;
     padding: 60px 0;
 }
-.questions h4{
+#questions h4{
     display: inline-block;
     padding: 40px 0;
 }
-.questions i.fas{
+#questions i.fas{
     float: right;
     padding: 40px;
 }
-.questions hr{
+#questions hr{
     color: #dcdcde;
 }
 
@@ -385,28 +394,28 @@ footer{
     height: 450px;
     background-color: #000;
 }
-.footer-section{
-    padding: 100px;
+.links{
+    padding: 100px 160px;
 }
-.footer-section h4{
+.links *{
+    color: #fff;
+}
+.links ul{
+    float: left;
+    width: calc(100% / 5);
+}
+.links ul h4{
     font-size: 1.2rem;
     font-weight: 800;
     padding-bottom: 20px;
 }
-.footer-section *{
-    color: #fff;
-}
-.footer-section ul{
-    float: left;
-    width: calc(100% / 5);
-}
-footer hr{
+.footer-section hr{
     width: 100px;
-    margin-left: 100px;
+    margin-left: 160px;
     margin-bottom: 50px;
 }
-footer .language-selector{
-    padding-left: 100px;
+.footer-section .language-selector{
+    padding-left: 160px;
     color: #999999;
     font-size: 0.8rem;
 }
