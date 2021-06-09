@@ -89,13 +89,18 @@ li{
 }
 /* Topnav */
 
-nav{
-    height: 80px;
-    padding: 0 20px;
-}
 
+.top-nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 0 20px;
+    height: 80px;
+}
 .left-nav{
-    display: inline-block;
+    float: left;
 }
 .right-nav{
     float: right;
@@ -113,7 +118,7 @@ nav a img{
 .hero{
     position: relative;
     background-color: #b4d0e7;
-    padding: 110px 150px;
+    padding: 190px 150px;
 }
 .hero-title{
     font-size: 5rem;
