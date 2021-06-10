@@ -63,8 +63,13 @@ a{
     color: #176fff;
     text-decoration: underline;
 }
-
-
+.btn-blue:hover{
+    filter: opacity(0.8);
+}
+.btn-white-bordered:hover,
+.btn-white:hover{
+    filter: invert(1);
+}
 /* color & bg */
 .bg-green{
     background-color: #a2d39b;
@@ -108,6 +113,7 @@ li{
 .a-underline:active{
     border-bottom: 2px solid #176fff;
 }
+
 /********* Header *********/
 
 /* topnav */
@@ -140,12 +146,16 @@ nav a img{
 
 .hero{
     position: relative;
+    max-height: 950px;
     background-color: #b4d0e7;
     padding: 190px 150px;
 }
 .hero-title{
     font-size: 5rem;
     margin-bottom: 40px;
+}
+.hero-text{
+    float: left;
 }
 .hero-desc{
     width: 391px;
@@ -155,15 +165,14 @@ nav a img{
     margin-top: 30px;
 }
 .hero-image{
-    width: 50%;
+    width: 65%;
     height: auto;
-    position: absolute;
-    top: 48%;
-    right: 0;
-    transform: translateX(-25%);
+    float: right;
 }
-
 .hero i{
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
     font-size: 2rem;
     margin-top: 40px;
 }
